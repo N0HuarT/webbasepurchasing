@@ -1,0 +1,20 @@
+field 					Max length 						Notes
+First name 				35 chars (US), 50 (other) 	
+Last name 				35 chars (US), 50 (other) 	
+Display name 			70 chars (US) 100 (other) 	
+Street address 			35 chars (US) 100 (other) 		The longest street name in the United States is 34 characters long.  The longest in the 															world (in New Zealand) is 92 letters long.
+Town 					25 chars (US) 60 (other) 	
+State 					15 chars (US) 50 (other) 	
+Country name 			55 chars 	 					Currently the longest country name in the world is 53 characters long
+Postal code 			9 chars 	
+Monetary amounts 		16 chars 						Use common sense here, a smaller field size would likely work
+Dates 					10 chars 						CCYY-MM-DD
+Email address 			254 chars 	 					According to spec with clarification from IETF RFC Errata in 2010
+Phone number 			15 chars 						According to ITU-T
+Phone number extension 	11 chars 	
+Credit card number 		19 digits 						Most are 16 digits
+CVV field 				4 digits 						Some are only 3 digits
+IP address 				12 digits 	
+Company name 			100 chars 			Highly variable but the longest name in the US is believed to be a law firm with a 92 character name.
+Longitude 				9 (with 6 decimal places) 	6 decimal positions for .1m resolution or 5 decimal positions for 1m resolution
+Latitude 				8 (with 6 decimal places) 	6 decimal positions for .1m resolution or 5 decimal positions for 1m resolution
